@@ -1,0 +1,5 @@
+group("gn-demo") {
+  deps = [
+    "//demo",
+  ]
+}
