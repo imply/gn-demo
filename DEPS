@@ -24,7 +24,7 @@ deps = {
       'a7cc7a3e21a061975b33dcdcd81a9716ba614c3c',
   Var('project_name') + '/build/config':
       Var('github_git') + '/imply/build-config.git@' +
-      '92a4b35e310ed08f9bb0397d000afbaa6cf4112b',
+      '216d19f87ba4bcdf5eb557ec887f5a34ab0e49f0',
   Var('project_name') + '/third_party/mini_chromium':
       Var('chromium_git') + '/chromium/mini_chromium.git@' +
       '4f3cfc8e7c2b7d77f94f41a32c3ec84a6920f05d',

@@ -9,3 +9,39 @@ executable("demo") {
     "//third_party/mini_chromium/base:base",
   ]
 }
+
+static_library("demo_static") {
+  output_name = "demo"
+
+  sources = [
+    "demo_main.cc",
+  ]
+
+  deps = [
+    "//third_party/mini_chromium/base:base",
+  ]
+}
+
+shared_library("demo_shared") {
+  output_name = "demo"
+
+  sources = [
+    "demo_main.cc",
+  ]
+
+  deps = [
+    "//third_party/mini_chromium/base:base",
+  ]
+}
+
+loadable_module("demo_module") {
+  output_name = "demo_module"
+
+  sources = [
+    "demo_main.cc",
+  ]
+
+  deps = [
+    "//third_party/mini_chromium/base:base",
+  ]
+}
